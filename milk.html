@@ -16,9 +16,13 @@
     <h2>Сырный калькулятор (Химки)</h2>
     <p>Расчет уксуса, времени и посекундной тарификации</p>
     <button onclick="runComplexCalculation()">Начать расчет</button>
+        <button onclick="kostya()">про уксус</button>
 </div>
 
 <script>
+    function kostya() {
+         alert("его делают из вина");
+    }
 function runComplexCalculation() {
     // 1. Ввод данных
     const liters = parseFloat(prompt("Литров молока:", "3"));
